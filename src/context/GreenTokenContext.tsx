@@ -1420,7 +1420,7 @@ export const GreenTokenProvider: React.FC<{ children: React.ReactNode }> = ({ ch
         verified: true
       },
       mrvData: {
-        auditor: verifier.name,
+        auditor: verifierName,
         methodology: sub.methodologyId,
         monitoringPeriod: `${sub.vintageStart} - ${sub.vintageEnd}`,
         co2SequesteredAnnual: sub.estimatedAnnualCredits,

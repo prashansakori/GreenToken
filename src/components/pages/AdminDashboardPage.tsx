@@ -290,7 +290,6 @@ export const AdminDashboardPage: React.FC = () => {
                 <span>Connect the project developer or contract administrator wallet to authorize issuance.</span>
                 <button type="button" onClick={openWalletModal} className="shrink-0 underline">Connect wallet</button>
               </div>
-            </p>
             )}
             <div className="pb-3 border-b border-emerald-900/40">
               <h3 className="text-lg font-bold text-white font-sans flex items-center gap-2">
